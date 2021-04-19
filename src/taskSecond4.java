@@ -12,7 +12,7 @@ public class taskSecond4 {
 
     public static void main(String[] args) {
         int a = fact(5);
-        System.out.print(a);
+        System.out.print(fact(5));
     }
 
 }

@@ -6,7 +6,7 @@ public class task2_3 {
 
     public static void fillArr(int i){
         if(i < arr.length){
-            System.out.println("Введите " + i + " элемент");
+            System.out.println("Введите " + (i+1) + " элемент");
             arr[i] = sc.nextInt();
             fillArr(++i);
         }
